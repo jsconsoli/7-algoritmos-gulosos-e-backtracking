@@ -9,7 +9,6 @@ public class Alg_NRainhas{
     }
 
     public static int nRainhas(int n){
-        
         Stack <Rainha>pilha = new Stack<>();
         while (pilha.size()!= n) { //repeat para parar com n rainhas
             Rainha atual = new Rainha(0,0);
