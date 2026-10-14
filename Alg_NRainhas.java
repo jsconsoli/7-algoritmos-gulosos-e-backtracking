@@ -1,14 +1,14 @@
 import java.util.Stack;
 import java.util.Vector;
 
+
 public class Alg_NRainhas{
     public static void main(String[] args) {
+        System.out.println(nRainhas(2));
         
     }
 
-    public record Rainha(int linha, int coluna) {}
-
-    public int nRainhas(int n){
+    public static int nRainhas(int n){
         
         Stack <Rainha>pilha = new Stack<>();
         while (pilha.size()!= n) { //repeat para parar com n rainhas
